@@ -1,0 +1,10 @@
+.xyz {
+	position: relative;
+	margin: auto;
+}
+.abc {
+  position: absolute;
+  left: 45%;
+  top: 35%;
+  color: white;
+}

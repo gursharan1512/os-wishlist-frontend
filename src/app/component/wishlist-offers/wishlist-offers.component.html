@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 col-sm-4 col-6">
+    </div>
+    <div class="col-md-3 col-sm-4 col-6 text-left">
+      PRODUCT
+    </div>
+    <div class="col-md-2 col-sm-4 d-none d-sm-block text-center">
+      ORIGINAL PRICE
+    </div>
+    <div class="col-md-2 d-none d-md-block text-center">
+      DISCOUNT
+    </div>
+    <div class="col-md-2 d-none d-md-block text-center">
+      VALIDITY
+    </div>
+  </div>
+</div>
+<div *ngFor=" let offerList of wishlistOffers">
+  <app-wishlist-offer [offerList]="offerList"></app-wishlist-offer>
+</div>
